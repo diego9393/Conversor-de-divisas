@@ -73,4 +73,3 @@ C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\obj\Debug\ConsoleAp
 C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
 C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
-C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Monedas.csv

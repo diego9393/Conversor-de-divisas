@@ -50,3 +50,4 @@ C:\Users\usuario\Documents\GitHub\proyecto-Final\Contexto\obj\Debug\Contexto.Mig
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Contexto\obj\Debug\Contexto.Migrations.addpais.resources
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Contexto\obj\Debug\Contexto.Migrations.prueba1.resources
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Contexto\obj\Debug\Contexto.Migrations.crearDB.resources
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Contexto\obj\Debug\Contexto.Migrations.prueba2.resources

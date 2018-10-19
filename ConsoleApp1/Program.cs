@@ -14,9 +14,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Moneda origen: ");
             var idOrigen = Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine("Moneda Destino: ");
             var idDestino = Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine("Cantidad: ");
             var cantidad = Console.ReadLine();
+            Console.Clear();
+
             var valor = new jsonParser();
             valor.from = idOrigen;
             valor.to = idDestino;
