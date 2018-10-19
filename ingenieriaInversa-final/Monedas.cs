@@ -7,16 +7,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Modelo
+namespace ingenieriaInversa_final
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Factores
+    public partial class Monedas
     {
         public int Id { get; set; }
-        public string Id_Origen { get; set; }
-        public string Id_Destno { get; set; }
-        public string Factor { get; set; }
+        public string Nombre { get; set; }
+        public string Id_Moneda { get; set; }
     }
 }

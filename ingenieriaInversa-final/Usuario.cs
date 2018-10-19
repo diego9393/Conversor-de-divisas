@@ -7,17 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Modelo
+namespace ingenieriaInversa_final
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Historial
+    public partial class Usuario
     {
         public int Id { get; set; }
-        public string id_Destino { get; set; }
-        public string id_origen { get; set; }
-        public string Resultado { get; set; }
-        public string Fecha_consulta { get; set; }
+        public string Login { get; set; }
+        public string Pass { get; set; }
+        public string Id_Pais { get; set; }
+        public string Nombre_y_Apellidos { get; set; }
+        public string Email { get; set; }
+        public string Fecha_de_nacimiento { get; set; }
     }
 }

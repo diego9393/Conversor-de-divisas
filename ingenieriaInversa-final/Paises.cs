@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Modelo
+namespace ingenieriaInversa_final
 {
     using System;
     using System.Collections.Generic;

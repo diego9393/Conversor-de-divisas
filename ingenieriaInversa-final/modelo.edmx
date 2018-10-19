@@ -79,8 +79,14 @@ advertencia 6002: La tabla o vista 'monedasProyecto.dbo.Usuario' no tiene defini
           <Property Name="Fecha de nacimiento" Type="varchar" MaxLength="50" Nullable="false" />
         </EntityType>
         <!--Errores durante la generación:
+advertencia 6035: La relación 'FK_Factores_Id Destno' tiene columnas que no forman parte de la clave de la tabla en el lado principal de la relación. Se excluyó la relación.
+        <Association Name="FK_Factores_Id Destno" />-->
+        <!--Errores durante la generación:
 advertencia 6035: La relación 'FK_Factores_Id Origen' tiene columnas que no forman parte de la clave de la tabla en el lado principal de la relación. Se excluyó la relación.
         <Association Name="FK_Factores_Id Origen" />-->
+        <!--Errores durante la generación:
+advertencia 6035: La relación 'FK_Historial_id Destino' tiene columnas que no forman parte de la clave de la tabla en el lado principal de la relación. Se excluyó la relación.
+        <Association Name="FK_Historial_id Destino" />-->
         <!--Errores durante la generación:
 advertencia 6035: La relación 'FK_Historial_id origen' tiene columnas que no forman parte de la clave de la tabla en el lado principal de la relación. Se excluyó la relación.
         <Association Name="FK_Historial_id origen" />-->
