@@ -49,6 +49,20 @@ namespace ConsoleApp1
                 Console.WriteLine("Fin");
             }
 
+            Console.WriteLine("¿Desea borrar registros?(si/no)");
+            var resp = Console.ReadLine();
+            if(resp == "si")
+            {
+                Console.WriteLine("Introduce ID");
+                var id = 0;
+                Int32.TryParse(Console.ReadLine(), out id);
+                baseDB.eliminarRegistro(id);
+            }
+            else
+            {
+                Console.WriteLine();
+            }
+
             Console.ReadKey();
 
         }
@@ -89,8 +103,18 @@ namespace ConsoleApp1
             {
                  foreach (var item in context.Historial)
                 {
-                    Console.WriteLine(item.IdOrigen + " a " + item.IdDestino + " = " + item.resultado);
+                    Console.WriteLine(item.Id + ": " + item.IdOrigen + " a " + item.IdDestino + " = " + item.resultado);
                 }
+            }
+        }
+
+        public void eliminarRegistro(int id)
+        {
+            using (var dbContext = new MonedaDb())
+            {
+                var rec = dbContext.Historial.FirstOrDefault(x => x.Id == id);
+                dbContext.Historial.Remove(rec);
+                dbContext.SaveChanges();
             }
         }
 
