@@ -31,8 +31,8 @@ namespace ConsoleApp1
             valor.to = idDestino;
             valor.cantidad = "100";
             var resultado = valor.getValor();
-        
-            Console.WriteLine(resultado);
+    
+            Console.WriteLine("resultado: " + resultado);
             Console.WriteLine("Escribiendo en Base de datos");
             var baseDB = new editarDB();
             baseDB.addRegistro(idOrigen, idDestino, resultado);
@@ -53,18 +53,19 @@ namespace ConsoleApp1
             var resp = Console.ReadLine();
             if(resp == "si")
             {
-                Console.WriteLine("Introduce ID");
+                Console.WriteLine("Introduce ID: ");
                 var id = 0;
                 Int32.TryParse(Console.ReadLine(), out id);
                 baseDB.eliminarRegistro(id);
+                Console.WriteLine("Registro borrado");
             }
             else
             {
                 Console.WriteLine();
             }
 
+            Console.WriteLine("Teclee una tecla cualquiera para continuar...");
             Console.ReadKey();
-
         }
     }
 
