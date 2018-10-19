@@ -49,6 +49,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Migrations\201810180933363_InitialCreate.cs" />
+    <Compile Include="Migrations\201810180933363_InitialCreate.Designer.cs">
+      <DependentUpon>201810180933363_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810190852424_nombre-migracion.cs" />
+    <Compile Include="Migrations\201810190852424_nombre-migracion.Designer.cs">
+      <DependentUpon>201810190852424_nombre-migracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810190855526_prueba.cs" />
+    <Compile Include="Migrations\201810190855526_prueba.Designer.cs">
+      <DependentUpon>201810190855526_prueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810190924193_pais.cs" />
+    <Compile Include="Migrations\201810190924193_pais.Designer.cs">
+      <DependentUpon>201810190924193_pais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810190926157_addpais.cs" />
+    <Compile Include="Migrations\201810190926157_addpais.Designer.cs">
+      <DependentUpon>201810190926157_addpais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810190939258_prueba1.cs" />
+    <Compile Include="Migrations\201810190939258_prueba1.Designer.cs">
+      <DependentUpon>201810190939258_prueba1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810191002123_crearDB.cs" />
+    <Compile Include="Migrations\201810191002123_crearDB.Designer.cs">
+      <DependentUpon>201810191002123_crearDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +89,29 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810180933363_InitialCreate.resx">
+      <DependentUpon>201810180933363_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810190852424_nombre-migracion.resx">
+      <DependentUpon>201810190852424_nombre-migracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810190855526_prueba.resx">
+      <DependentUpon>201810190855526_prueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810190924193_pais.resx">
+      <DependentUpon>201810190924193_pais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810190926157_addpais.resx">
+      <DependentUpon>201810190926157_addpais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810190939258_prueba1.resx">
+      <DependentUpon>201810190939258_prueba1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810191002123_crearDB.resx">
+      <DependentUpon>201810191002123_crearDB.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

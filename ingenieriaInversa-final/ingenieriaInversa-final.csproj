@@ -51,17 +51,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Factores.cs">
+      <DependentUpon>modelo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Historial.cs">
+      <DependentUpon>modelo.tt</DependentUpon>
+    </Compile>
     <Compile Include="modelo.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>modelo.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="modelo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>modelo.tt</DependentUpon>
     </Compile>
     <Compile Include="modelo.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>modelo.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Monedas.cs">
+      <DependentUpon>modelo.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Paises.cs">
+      <DependentUpon>modelo.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usuario.cs">
+      <DependentUpon>modelo.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="modelo.edmx">
@@ -80,6 +100,12 @@
     <Content Include="modelo.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>modelo.Context.cs</LastGenOutput>
+      <DependentUpon>modelo.edmx</DependentUpon>
+    </Content>
+    <Content Include="modelo.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>modelo.edmx</DependentUpon>
+      <LastGenOutput>modelo.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

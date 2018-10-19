@@ -21,3 +21,15 @@ C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.csproj.Core
 C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.csproj.CopyComplete
 C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.dll
 C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\Comun.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.pdb

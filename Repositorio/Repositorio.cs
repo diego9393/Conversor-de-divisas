@@ -10,7 +10,9 @@ namespace Repo
         public Repositorio()
         {
             ListaMonedas = new List<Moneda>();
+            ListaPais = new List<Pais>();
         }
+        public List<Pais> ListaPais { get; set; }
         public List<Moneda> ListaMonedas { get; set; }
 
         // C - CREATE
@@ -19,8 +21,13 @@ namespace Repo
             Moneda existeMoneda = ObtenerMoneda(moneda.IdentificadorMoneda);
             if (existeMoneda != null) return;
             ListaMonedas.Add(moneda);
+        }
 
-
+        public void CrearPais(Pais pais)
+        {
+            Pais existePais = obtenerPais(pais.IdPais);
+            if (existePais != null) return;
+            ListaPais.Add(pais);
         }
 
         // R - RETRIEVE
@@ -53,7 +60,12 @@ namespace Repo
             return ListaMonedas.FirstOrDefault
                 (p => p.IdentificadorMoneda == IdMoneda);
 
+        }
 
+        public Pais obtenerPais(string idPais)
+        {
+            return ListaPais.FirstOrDefault
+                (x => x.IdPais == idPais);
         }
 
         public List<FactorConversion> ObtenerFactores()

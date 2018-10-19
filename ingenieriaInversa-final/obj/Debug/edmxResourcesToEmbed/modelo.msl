@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="monedasProyectoModelStoreContainer" CdmEntityContainer="monedasProyectoEntities">
+    <EntitySetMapping Name="Factores">
+      <EntityTypeMapping TypeName="monedasProyectoModel.Factores">
+        <MappingFragment StoreEntitySet="Factores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Id_Origen" ColumnName="Id Origen" />
+          <ScalarProperty Name="Id_Destno" ColumnName="Id Destno" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Historial">
+      <EntityTypeMapping TypeName="monedasProyectoModel.Historial">
+        <MappingFragment StoreEntitySet="Historial">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="id_Destino" ColumnName="id Destino" />
+          <ScalarProperty Name="id_origen" ColumnName="id origen" />
+          <ScalarProperty Name="Resultado" ColumnName="Resultado" />
+          <ScalarProperty Name="Fecha_consulta" ColumnName="Fecha consulta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Monedas">
+      <EntityTypeMapping TypeName="monedasProyectoModel.Monedas">
+        <MappingFragment StoreEntitySet="Monedas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id_Moneda" ColumnName="Id Moneda" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paises">
+      <EntityTypeMapping TypeName="monedasProyectoModel.Paises">
+        <MappingFragment StoreEntitySet="Paises">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Id_Pais" ColumnName="Id Pais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="monedasProyectoModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Id_Pais" ColumnName="Id Pais" />
+          <ScalarProperty Name="Nombre_y_Apellidos" ColumnName="Nombre y Apellidos" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Fecha_de_nacimiento" ColumnName="Fecha de nacimiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

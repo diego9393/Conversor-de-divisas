@@ -21,7 +21,8 @@ namespace Infraestructura.Seed
                 new Moneda{IdentificadorMoneda = "INR"},
                 new Moneda{IdentificadorMoneda = "AUD"}
             };
-            return listaMonedas;
+            //return listaMonedas;
+            return monedas;
 
         }
 
@@ -31,7 +32,7 @@ namespace Infraestructura.Seed
 
                 File.ReadAllLines(monedasCsv)
                     .Skip(1)
-                    .Where(l => l.Length > 1);
+                    .Where(l => l.Length > 1)
             //.ToCar();
 
             //return query.ToList();

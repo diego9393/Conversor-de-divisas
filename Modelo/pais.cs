@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Modelo
 {
-    class pais
+    public class Pais
     {
-        public string idPais { get; set; }
-        public string nombrePais { get; set; }
+        public int Id { get; set; }
+        public string IdPais { get; set; }
+        public string Nombre { get; set; }
     }
 }
