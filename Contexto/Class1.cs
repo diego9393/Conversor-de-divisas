@@ -13,5 +13,6 @@ namespace Contexto
         public DbSet<Moneda> Monedas { get; set; }
         public DbSet<FactorConversion> FactoresConverion { get; set; }
         public DbSet<Pais> Paises { get; set; }
+        public DbSet<Historial> Historial { get; set; }
     }
 }

@@ -11,9 +11,11 @@ namespace Repo
         {
             ListaMonedas = new List<Moneda>();
             ListaPais = new List<Pais>();
+            listaHistorial = new List<Historial>();
         }
         public List<Pais> ListaPais { get; set; }
         public List<Moneda> ListaMonedas { get; set; }
+        public List<Historial> listaHistorial { get; set; }
 
         // C - CREATE
         public void CrearMoneda(Moneda moneda)
@@ -28,6 +30,13 @@ namespace Repo
             Pais existePais = obtenerPais(pais.IdPais);
             if (existePais != null) return;
             ListaPais.Add(pais);
+        }
+
+        public void CrearHistorial(Historial historial)
+        {
+            Historial existeHistorial = obtenerHistorial(historial.Id);
+            if (existeHistorial != null) return;
+            listaHistorial.Add(historial);
         }
 
         // R - RETRIEVE
@@ -66,6 +75,12 @@ namespace Repo
         {
             return ListaPais.FirstOrDefault
                 (x => x.IdPais == idPais);
+        }
+
+        public Historial obtenerHistorial(int idHistorial)
+        {
+            return listaHistorial.FirstOrDefault
+                (x => x.Id == idHistorial);
         }
 
         public List<FactorConversion> ObtenerFactores()

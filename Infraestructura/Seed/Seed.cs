@@ -32,7 +32,7 @@ namespace Infraestructura.Seed
 
                 File.ReadAllLines(monedasCsv)
                     .Skip(1)
-                    .Where(l => l.Length > 1)
+                    .Where(l => l.Length > 1);
             //.ToCar();
 
             //return query.ToList();

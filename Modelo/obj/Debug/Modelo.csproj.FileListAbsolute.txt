@@ -26,3 +26,4 @@ C:\Users\usuario\Documents\GitHub\proyecto-Final\Modelo\obj\Debug\Modelo.csproj.
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Modelo\obj\Debug\Modelo.dll
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Modelo\obj\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
