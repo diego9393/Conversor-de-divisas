@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="monedasProyectoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'monedasProyecto.dbo.Factores' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Factores">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Id Origen" />
+            <PropertyRef Name="Id Destno" />
+            <PropertyRef Name="Factor" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Id Origen" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Id Destno" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Factor" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'monedasProyecto.dbo.Historial' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Historial">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="id Destino" />
+            <PropertyRef Name="id origen" />
+            <PropertyRef Name="Fecha consulta" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id Destino" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="id origen" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Resultado" Type="varchar" MaxLength="50" />
+          <Property Name="Fecha consulta" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'monedasProyecto.dbo.Monedas' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Monedas">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Id Moneda" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Id Moneda" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'monedasProyecto.dbo.Paises' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Paises">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Id Pais" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre" Type="varchar" MaxLength="500" Nullable="false" />
+          <Property Name="Id Pais" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'monedasProyecto.dbo.Usuario' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Login" />
+            <PropertyRef Name="Pass" />
+            <PropertyRef Name="Id Pais" />
+            <PropertyRef Name="Nombre y Apellidos" />
+            <PropertyRef Name="Email" />
+            <PropertyRef Name="Fecha de nacimiento" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Login" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Pass" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Id Pais" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nombre y Apellidos" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Fecha de nacimiento" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6035: La relación 'FK_Factores_Id Origen' tiene columnas que no forman parte de la clave de la tabla en el lado principal de la relación. Se excluyó la relación.
+        <Association Name="FK_Factores_Id Origen" />-->
+        <!--Errores durante la generación:
+advertencia 6035: La relación 'FK_Historial_id origen' tiene columnas que no forman parte de la clave de la tabla en el lado principal de la relación. Se excluyó la relación.
+        <Association Name="FK_Historial_id origen" />-->
+        <!--Errores durante la generación:
+advertencia 6035: La relación 'FK_Usuario_Id Pais' tiene columnas que no forman parte de la clave de la tabla en el lado principal de la relación. Se excluyó la relación.
+        <Association Name="FK_Usuario_Id Pais" />-->
+        <EntityContainer Name="monedasProyectoModelStoreContainer">
+          <EntitySet Name="Factores" EntityType="Self.Factores" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Factores].[Id] AS [Id], 
+    [Factores].[Id Origen] AS [Id Origen], 
+    [Factores].[Id Destno] AS [Id Destno], 
+    [Factores].[Factor] AS [Factor]
+    FROM [dbo].[Factores] AS [Factores]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Historial" EntityType="Self.Historial" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Historial].[Id] AS [Id], 
+    [Historial].[id Destino] AS [id Destino], 
+    [Historial].[id origen] AS [id origen], 
+    [Historial].[Resultado] AS [Resultado], 
+    [Historial].[Fecha consulta] AS [Fecha consulta]
+    FROM [dbo].[Historial] AS [Historial]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Monedas" EntityType="Self.Monedas" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Monedas].[Id] AS [Id], 
+    [Monedas].[Nombre] AS [Nombre], 
+    [Monedas].[Id Moneda] AS [Id Moneda]
+    FROM [dbo].[Monedas] AS [Monedas]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Paises" EntityType="Self.Paises" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Paises].[Id] AS [Id], 
+    [Paises].[Nombre] AS [Nombre], 
+    [Paises].[Id Pais] AS [Id Pais]
+    FROM [dbo].[Paises] AS [Paises]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Usuario" EntityType="Self.Usuario" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Usuario].[Id] AS [Id], 
+    [Usuario].[Login] AS [Login], 
+    [Usuario].[Pass] AS [Pass], 
+    [Usuario].[Id Pais] AS [Id Pais], 
+    [Usuario].[Nombre y Apellidos] AS [Nombre y Apellidos], 
+    [Usuario].[Email] AS [Email], 
+    [Usuario].[Fecha de nacimiento] AS [Fecha de nacimiento]
+    FROM [dbo].[Usuario] AS [Usuario]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="monedasProyectoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Factores">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Id_Origen" />
+            <PropertyRef Name="Id_Destno" />
+            <PropertyRef Name="Factor" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id_Origen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Id_Destno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Factor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Historial">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="id_Destino" />
+            <PropertyRef Name="id_origen" />
+            <PropertyRef Name="Fecha_consulta" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_Destino" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_origen" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Resultado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Fecha_consulta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Monedas">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Id_Moneda" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Id_Moneda" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Paises">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Nombre" />
+            <PropertyRef Name="Id_Pais" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Id_Pais" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Usuario">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="Login" />
+            <PropertyRef Name="Pass" />
+            <PropertyRef Name="Id_Pais" />
+            <PropertyRef Name="Nombre_y_Apellidos" />
+            <PropertyRef Name="Email" />
+            <PropertyRef Name="Fecha_de_nacimiento" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Pass" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Id_Pais" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nombre_y_Apellidos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Fecha_de_nacimiento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="monedasProyectoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Factores" EntityType="Self.Factores" />
+          <EntitySet Name="Historial" EntityType="Self.Historial" />
+          <EntitySet Name="Monedas" EntityType="Self.Monedas" />
+          <EntitySet Name="Paises" EntityType="Self.Paises" />
+          <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="monedasProyectoModelStoreContainer" CdmEntityContainer="monedasProyectoEntities">
+          <EntitySetMapping Name="Factores">
+            <EntityTypeMapping TypeName="monedasProyectoModel.Factores">
+              <MappingFragment StoreEntitySet="Factores">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Id_Origen" ColumnName="Id Origen" />
+                <ScalarProperty Name="Id_Destno" ColumnName="Id Destno" />
+                <ScalarProperty Name="Factor" ColumnName="Factor" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Historial">
+            <EntityTypeMapping TypeName="monedasProyectoModel.Historial">
+              <MappingFragment StoreEntitySet="Historial">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="id_Destino" ColumnName="id Destino" />
+                <ScalarProperty Name="id_origen" ColumnName="id origen" />
+                <ScalarProperty Name="Resultado" ColumnName="Resultado" />
+                <ScalarProperty Name="Fecha_consulta" ColumnName="Fecha consulta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Monedas">
+            <EntityTypeMapping TypeName="monedasProyectoModel.Monedas">
+              <MappingFragment StoreEntitySet="Monedas">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Id_Moneda" ColumnName="Id Moneda" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Paises">
+            <EntityTypeMapping TypeName="monedasProyectoModel.Paises">
+              <MappingFragment StoreEntitySet="Paises">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+                <ScalarProperty Name="Id_Pais" ColumnName="Id Pais" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Usuario">
+            <EntityTypeMapping TypeName="monedasProyectoModel.Usuario">
+              <MappingFragment StoreEntitySet="Usuario">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Login" ColumnName="Login" />
+                <ScalarProperty Name="Pass" ColumnName="Pass" />
+                <ScalarProperty Name="Id_Pais" ColumnName="Id Pais" />
+                <ScalarProperty Name="Nombre_y_Apellidos" ColumnName="Nombre y Apellidos" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Fecha_de_nacimiento" ColumnName="Fecha de nacimiento" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
