@@ -36,8 +36,21 @@ namespace ConsoleApp1
             Console.WriteLine("Escribiendo en Base de datos");
             var baseDB = new editarDB();
             baseDB.addRegistro(idOrigen, idDestino, resultado);
-            Console.WriteLine("Fin");
+            Console.WriteLine("Datos escritos en la base de datos");
+
+            Console.WriteLine("¿Desea ver el histórico?(si/no): ");
+            var respuesta = Console.ReadLine();
+            if(respuesta == "si")
+            {
+                baseDB.recogerHistorico();
+            }
+            else
+            {
+                Console.WriteLine("Fin");
+            }
+
             Console.ReadKey();
+
         }
     }
 
@@ -70,6 +83,17 @@ namespace ConsoleApp1
 
     public class editarDB
     {
+        public void recogerHistorico()
+        {
+            using (var context = new MonedaDb())
+            {
+                foreach (var item in context.Historial)
+                {
+                    Console.WriteLine(item.IdOrigen + " a " + item.IdDestino + " = " + item.resultado);
+                }
+            }
+        }
+
         public void addRegistro(string origen, string destino, string resultado)
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<MonedaDb>());
@@ -79,7 +103,7 @@ namespace ConsoleApp1
             {
                 IdDestino = destino,
                 IdOrigen = origen,
-                resultado = destino,
+                resultado = resultado,
                 Fecha = DateTime.Now.ToString()
             };
 
@@ -108,15 +132,15 @@ namespace ConsoleApp1
             }
         }
 
-        public void actualizarPais()
+        public void actualizarPais(int idBuscar, string idPais, string nombrePais)
         {
             using (var db = new MonedaDb())
             {
-                var result = db.Paises.SingleOrDefault(b => b.Id == 4);
+                var result = db.Paises.SingleOrDefault(b => b.Id == idBuscar);
                 if (result != null)
                 {
-                    result.IdPais = "FRA";
-                    result.Nombre = "Francia";
+                    result.IdPais = idPais;
+                    result.Nombre = nombrePais;
                     db.SaveChanges();
                 }
             }
