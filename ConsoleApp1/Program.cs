@@ -87,7 +87,7 @@ namespace ConsoleApp1
         {
             using (var context = new MonedaDb())
             {
-                foreach (var item in context.Historial)
+                 foreach (var item in context.Historial)
                 {
                     Console.WriteLine(item.IdOrigen + " a " + item.IdDestino + " = " + item.resultado);
                 }
