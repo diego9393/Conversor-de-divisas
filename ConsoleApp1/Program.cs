@@ -46,7 +46,7 @@ namespace ConsoleApp1
             }
             else
             {
-                Console.WriteLine("Fin");
+                Console.WriteLine("Histórico obtenido");
             }
 
             Console.WriteLine("¿Desea borrar registros?(si/no)");
@@ -62,6 +62,19 @@ namespace ConsoleApp1
             else
             {
                 Console.WriteLine();
+            }
+
+            Console.WriteLine("¿Desea actualizar registros?(si/no)");
+            var resultadoAc = Console.ReadLine();
+            if(resultadoAc == "si")
+            {
+                Console.WriteLine("Introduce ID: ");
+                var id = 0;
+                Int32.TryParse(Console.ReadLine(), out id);
+                Console.WriteLine("Resultado nuevo: ");
+                var resNew = Console.ReadLine();
+                baseDB.actualizarPais(id, resNew);
+                Console.WriteLine("Registro actualizado");
             }
 
             Console.WriteLine("Teclee una tecla cualquiera para continuar...");
@@ -132,20 +145,6 @@ namespace ConsoleApp1
                 Fecha = DateTime.Now.ToString()
             };
 
-            /*var moneda = new Moneda
-            {
-                IdentificadorMoneda = "EUR",
-                Nombre = "Euro"
-            };
-
-            var Pais = new Pais
-            {
-                IdPais = "UK",
-                Nombre = "Reino Unido"
-            };
-
-            db.Paises.Add(Pais);
-            db.Monedas.Add(moneda);*/
             db.Historial.Add(historial);
             try
             {
@@ -157,15 +156,14 @@ namespace ConsoleApp1
             }
         }
 
-        public void actualizarPais(int idBuscar, string idPais, string nombrePais)
+        public void actualizarPais(int idBuscar, string resultadoNuevo)
         {
             using (var db = new MonedaDb())
             {
-                var result = db.Paises.SingleOrDefault(b => b.Id == idBuscar);
+                var result = db.Historial.SingleOrDefault(b => b.Id == idBuscar);
                 if (result != null)
                 {
-                    result.IdPais = idPais;
-                    result.Nombre = nombrePais;
+                    result.resultado = resultadoNuevo;
                     db.SaveChanges();
                 }
             }
