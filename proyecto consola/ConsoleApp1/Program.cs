@@ -7,6 +7,8 @@ using System.Data.Entity;
 using Contexto;
 using Modelo;
 using Newtonsoft.Json.Linq;
+using Servicio;
+using System.ServiceModel;
 
 namespace ConsoleApp1
 {
