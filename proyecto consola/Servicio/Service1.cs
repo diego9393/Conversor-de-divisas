@@ -19,7 +19,12 @@ namespace Servicio
             _Context.Dispose();
         }
 
-        public List<Moneda> getProduct()
+        public List<Historial> GetHistorials()
+        {
+            return _Context.Historial.ToList();
+        }
+
+        public List<Moneda> GetMonedas()
         {
             return _Context.Monedas.ToList();
         }

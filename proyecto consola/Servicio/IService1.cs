@@ -13,6 +13,7 @@ namespace Servicio
     {
         [OperationContract]
         //obtener productos
-        List<Moneda> getProduct();
+        List<Historial> GetHistorials();
+        List<Moneda> GetMonedas();
     }
 }

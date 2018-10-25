@@ -16,7 +16,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Moneda origen: ");
+            ServiceReference1.Service1Client proxy = new ServiceReference1.Service1Client();
+            foreach(var item in proxy.getProduct())
+            {
+                Console.WriteLine(item.Id);
+            }
+            proxy.Close();
+            Console.ReadLine();
+            /*Console.WriteLine("Moneda origen: ");
             var idOrigen = Console.ReadLine();
             Console.Clear();
 
@@ -79,7 +86,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Registro actualizado");
             }
 
-            Console.WriteLine("Teclee una tecla cualquiera para continuar...");
+            Console.WriteLine("Teclee una tecla cualquiera para continuar...");*/
             Console.ReadKey();
         }
     }

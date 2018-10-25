@@ -5,6 +5,25 @@ using Modelo;
 
 namespace Repo
 {
+    public interface IRepositorio
+    {
+        void CrearMoneda(Moneda moneda);
+        void CrearPais(Pais pais);
+        void CrearHistorial(Historial historial);
+        List<Moneda> ObtenerMonedas();
+        void ActualizarMoneda(string IdMoneda, Moneda moneda);
+        void BorrarMoneda(string idMoneda);
+        Moneda ObtenerMoneda(string IdMoneda);
+        Pais obtenerPais(string idPais);
+        Historial obtenerHistorial(int idHistorial);
+        List<FactorConversion> ObtenerFactores();
+    }
+
+    public class repositorioFalso
+    {
+        
+    }
+
     public class Repositorio
     {
         public Repositorio()

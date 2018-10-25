@@ -1,0 +1,112 @@
+c:\Codigo\pruebas\Comun\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+c:\Codigo\pruebas\Comun\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+c:\Codigo\pruebas\Comun\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+c:\Codigo\pruebas\Comun\ConsoleApp1\bin\Debug\Negocio.dll
+c:\Codigo\pruebas\Comun\ConsoleApp1\bin\Debug\Negocio.pdb
+c:\Codigo\pruebas\Comun\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+c:\Codigo\pruebas\Comun\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+c:\Codigo\pruebas\Comun\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+c:\Codigo\pruebas\Comun\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+c:\Codigo\pruebas\Comun\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Monedas.csv
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Modelo.dll
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Repositorio.dll
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Infraestructura.dll
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Modelo.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Repositorio.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Modelo.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Repositorio.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Modelo.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Contexto.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Contexto.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\ConsoleApp1\bin\Debug\Contexto.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Contexto.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Modelo.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Contexto.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Contexto.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Contexto.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Modelo.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Contexto.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Contexto.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\CommonServiceLocator.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Servicio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Servicio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Servicio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\ConsoleApp1\bin\Debug\Monedas.csv
