@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
+﻿using System.Collections.Generic;
 using Modelo;
 
 namespace SitioWeb.ViewModels
@@ -15,6 +11,10 @@ namespace SitioWeb.ViewModels
 
         public string ImagenMoneda { get; set; }
 
-        public string ID { get; set; }
+        public string IDDestino { get; set; }
+
+        public string IDOrigen { get; set; }
+
+        public decimal Cantidad { get; set; }
     }
 }
