@@ -1,0 +1,90 @@
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\bin\Debug\Monedas.csv
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\bin\Debug\Repositorio.dll
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\bin\Debug\Repositorio.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\bin\Debug\Infraestructura.dll
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\bin\Debug\Modelo.dll
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\bin\Debug\Infraestructura.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\bin\Debug\Modelo.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.dll
+C:\CodigoCurso\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Monedas.csv
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Modelo.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Modelo.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Monedas.csv
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Modelo.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Monedas.csv
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Modelo.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Repositorio\bin\Debug\CommonServiceLocator.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Monedas.csv
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\CommonServiceLocator.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Modelo.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\obj\Debug\Repositorio.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Repositorio\obj\Debug\Repositorio.pdb

@@ -3428,11 +3428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj",
       "projectName": "ContextoCore",
-      "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ContextoCore\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ContextoCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3451,8 +3451,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj": {
-              "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj"
+            "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj": {
+              "projectPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj"
             }
           }
         }

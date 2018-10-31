@@ -1,0 +1,91 @@
+c:\codigo\pruebas\Comun\Comun\bin\Debug\Comun.dll
+c:\codigo\pruebas\Comun\Comun\bin\Debug\Comun.pdb
+c:\codigo\pruebas\Comun\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+c:\codigo\pruebas\Comun\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+c:\codigo\pruebas\Comun\Comun\obj\Debug\Comun.dll
+c:\codigo\pruebas\Comun\Comun\obj\Debug\Comun.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\Comun\bin\Debug\Comun.dll
+C:\CodigoCurso\ArquitecturaPropuesta\Comun\bin\Debug\Comun.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\CodigoCurso\ArquitecturaPropuesta\Comun\obj\Debug\Comun.dll
+C:\CodigoCurso\ArquitecturaPropuesta\Comun\obj\Debug\Comun.pdb
+C:\CodigoCurso\ArquitecturaPropuesta\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\bin\Debug\Comun.dll.config
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\bin\Debug\Comun.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\bin\Debug\Comun.pdb
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.dll
+C:\Users\usuario\Desktop\ArquitecturaPropuesta\Comun\obj\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\Comun.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Comun\obj\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Comun.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\CommonServiceLocator.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\obj\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\obj\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Newtonsoft.Json.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Monedas.csv
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Contexto.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Modelo.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Contexto.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Contexto.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto consola\Comun\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Monedas.csv
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Comun.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Comun.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\CommonServiceLocator.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Contexto.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\EntityFramework.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Modelo.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Repositorio.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Infraestructura.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Contexto.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Contexto.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Modelo.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Modelo.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Repositorio.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Repositorio.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\EntityFramework.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Newtonsoft.Json.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Infraestructura.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\bin\Debug\Infraestructura.dll.config
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\obj\Debug\Comun.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\proyecto antiguo\Comun\obj\Debug\Comun.pdb

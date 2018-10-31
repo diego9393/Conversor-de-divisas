@@ -2,46 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Microsoft.AspNetCore.Http.Abstractions/2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.0.3",
-          "System.Text.Encodings.Web": "4.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Http.Extensions/2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Abstractions": "2.0.3",
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.0.1",
-          "Microsoft.Net.Http.Headers": "2.0.3",
-          "System.Buffers": "4.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Http.Features/2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore/2.1.4": {
         "type": "package",
         "dependencies": {
@@ -183,18 +143,6 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/2.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
-        }
-      },
       "Microsoft.Extensions.Logging/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -243,19 +191,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
-        }
-      },
-      "Microsoft.Net.Http.Headers/2.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.0.0",
-          "System.Buffers": "4.4.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -487,15 +422,6 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/11.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -551,15 +477,6 @@
             "assetType": "native",
             "rid": "win-x86"
           }
-        }
-      },
-      "System.Buffers/4.4.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Collections/4.0.11": {
@@ -968,15 +885,6 @@
           }
         }
       },
-      "System.Text.Encodings.Web/4.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
-        }
-      },
       "System.Threading/4.0.11": {
         "type": "package",
         "dependencies": {
@@ -1016,29 +924,6 @@
           "bin/placeholder/ContextoCore.dll": {}
         }
       },
-      "ForexClient/0.1.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Extensions": "2.0.3",
-          "Newtonsoft.Json": "11.0.2"
-        },
-        "compile": {
-          "bin/placeholder/ForexClient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ForexClient.dll": {}
-        }
-      },
-      "ForexQuotes/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/ForexQuotes.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ForexQuotes.dll": {}
-        }
-      },
       "ModeloCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -1052,42 +937,6 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.Http.Abstractions/2.0.3": {
-      "sha512": "4lfcSmPT4BkCLyouRZR5eMOptT7Zd4s7EJwlPiYgKDa+T0LguAdPnvgfII6ObmQsw2WMi/8Be9naJQ3XeaBfEw==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.abstractions/2.0.3",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "microsoft.aspnetcore.http.abstractions.2.0.3.nupkg.sha512",
-        "microsoft.aspnetcore.http.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Http.Extensions/2.0.3": {
-      "sha512": "3ITaP3UbwdCp0y8B/WiI9X9jIhzfu0Y1Uyve6DLJP65uHDRuKrNqusGBkLk0w/EI0wMxMYkvTO5nPOm2ozOe1A==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.extensions/2.0.3",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.xml",
-        "microsoft.aspnetcore.http.extensions.2.0.3.nupkg.sha512",
-        "microsoft.aspnetcore.http.extensions.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Http.Features/2.0.3": {
-      "sha512": "6yIGNR9pe6bTuFVSAtoS3GlnQ+tovDHQIUuqFw9/EKAMsYDmNsFb8wFRRH74ThVj9WYNQyyblW4awrrwWVywJw==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.features/2.0.3",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.2.0.3.nupkg.sha512",
-        "microsoft.aspnetcore.http.features.nuspec"
-      ]
-    },
     "Microsoft.EntityFrameworkCore/2.1.4": {
       "sha512": "72l8hbaJ5cXxZLCFeo46MDnvU8XJiDRNh1YQPzAlqVAlQrUwSVojYbJyOE7vbWqsb8rRqQYJ6NsmgPdUv/NKzw==",
       "type": "package",
@@ -1235,18 +1084,6 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/2.0.1": {
-      "sha512": "X3qVOCDZmj1mQnN2SfFUZZ3qfA4OPmD6XxxZpx43g/OKYvf3RI9tvVUsNECVMHEW7PjYfH83wNpqn6fThFAD0g==",
-      "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/2.0.1",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.2.0.1.nupkg.sha512",
-        "microsoft.extensions.fileproviders.abstractions.nuspec"
-      ]
-    },
     "Microsoft.Extensions.Logging/2.1.1": {
       "sha512": "x4/RzeReQSIi4nVpOjXEySm/xUSr6lBjuecdYnlUboWxbLSm2j3vhFV5OLGRp3gfte3cRMdysMNa/wyZN0t/Tw==",
       "type": "package",
@@ -1293,18 +1130,6 @@
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
         "microsoft.extensions.primitives.2.1.1.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
-      ]
-    },
-    "Microsoft.Net.Http.Headers/2.0.3": {
-      "sha512": "R1MuitB3uKhWZFWU+zMmS43hfZ0M81KXGsXi41oa974juImdT46g+G5R24YT40E05MbZ/ExaBTj3mTMCA/GIfA==",
-      "type": "package",
-      "path": "microsoft.net.http.headers/2.0.3",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll",
-        "lib/netstandard2.0/Microsoft.Net.Http.Headers.xml",
-        "microsoft.net.http.headers.2.0.3.nupkg.sha512",
-        "microsoft.net.http.headers.nuspec"
       ]
     },
     "Microsoft.NETCore.App/2.1.0": {
@@ -1809,35 +1634,6 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/11.0.2": {
-      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
-      "type": "package",
-      "path": "newtonsoft.json/11.0.2",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.11.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
-      ]
-    },
     "Remotion.Linq/2.2.0": {
       "sha512": "fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "type": "package",
@@ -1908,30 +1704,6 @@
         "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
         "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
         "runtimes/win-x86/native/sni.dll",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Buffers/4.4.0": {
-      "sha512": "VCJfpWcYG1gT3WwivZWgT0KaqY678MQBvrOI2si6V8GHeQOtuW+wpiv5ss4KyfGG+cFFdPNaI+nw2/kExCtGgQ==",
-      "type": "package",
-      "path": "system.buffers/4.4.0",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.1/System.Buffers.dll",
-        "lib/netstandard1.1/System.Buffers.xml",
-        "lib/netstandard2.0/System.Buffers.dll",
-        "lib/netstandard2.0/System.Buffers.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.1/System.Buffers.dll",
-        "ref/netstandard1.1/System.Buffers.xml",
-        "ref/netstandard2.0/System.Buffers.dll",
-        "ref/netstandard2.0/System.Buffers.xml",
-        "system.buffers.4.4.0.nupkg.sha512",
-        "system.buffers.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -3515,24 +3287,6 @@
         "version.txt"
       ]
     },
-    "System.Text.Encodings.Web/4.4.0": {
-      "sha512": "fq0jIxxeO2/z6sqmdfhej3t2pdUYTgyLyZ+QnD5aiU0vrAID1o371LZEQ/gk2BOdfK3H9L/kV+EguX4kBqjrzw==",
-      "type": "package",
-      "path": "system.text.encodings.web/4.4.0",
-      "files": [
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/System.Text.Encodings.Web.dll",
-        "lib/netstandard1.0/System.Text.Encodings.Web.xml",
-        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
-        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.4.4.0.nupkg.sha512",
-        "system.text.encodings.web.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Threading/4.0.11": {
       "sha512": "N+3xqIcg3VDKyjwwCGaZ9HawG9aC6cSDI+s7ROma310GQo8vilFZa86hqKppwTHleR/G0sfOzhvgnUxWCR/DrQ==",
       "type": "package",
@@ -3673,16 +3427,6 @@
       "path": "../ContextoCore/ContextoCore.csproj",
       "msbuildProject": "../ContextoCore/ContextoCore.csproj"
     },
-    "ForexClient/0.1.0": {
-      "type": "project",
-      "path": "../dotnet-core-forex-quotes-master/ForexClient.csproj",
-      "msbuildProject": "../dotnet-core-forex-quotes-master/ForexClient.csproj"
-    },
-    "ForexQuotes/1.0.0": {
-      "type": "project",
-      "path": "../dotnet-forex-quotes-master/ForexQuotes.csproj",
-      "msbuildProject": "../dotnet-forex-quotes-master/ForexQuotes.csproj"
-    },
     "ModeloCore/1.0.0": {
       "type": "project",
       "path": "../ModeloCore/ModeloCore.csproj",
@@ -3692,13 +3436,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "ContextoCore >= 1.0.0",
-      "ForexClient >= 0.1.0",
-      "ForexQuotes >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 2.1.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.4",
       "Microsoft.NETCore.App >= 2.1.0",
-      "ModeloCore >= 1.0.0",
-      "Newtonsoft.Json >= 11.0.2"
+      "ModeloCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3708,11 +3449,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\RepositorioCore\\RepositorioCore.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\RepositorioCore\\RepositorioCore.csproj",
       "projectName": "RepositorioCore",
-      "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\RepositorioCore\\RepositorioCore.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\RepositorioCore\\RepositorioCore.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\RepositorioCore\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\RepositorioCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3731,17 +3472,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj": {
-              "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj"
+            "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj": {
+              "projectPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ContextoCore\\ContextoCore.csproj"
             },
-            "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\dotnet-core-forex-quotes-master\\ForexClient.csproj": {
-              "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\dotnet-core-forex-quotes-master\\ForexClient.csproj"
-            },
-            "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\dotnet-forex-quotes-master\\ForexQuotes.csproj": {
-              "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\dotnet-forex-quotes-master\\ForexQuotes.csproj"
-            },
-            "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj": {
-              "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj"
+            "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj": {
+              "projectPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj"
             }
           }
         }
@@ -3768,10 +3503,6 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[11.0.2, )"
           }
         },
         "imports": [

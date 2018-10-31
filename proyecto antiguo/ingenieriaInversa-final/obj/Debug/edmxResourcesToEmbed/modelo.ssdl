@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="monedasProyectoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="monedasProyectoModelStoreContainer">
+    <EntitySet Name="Factores" EntityType="monedasProyectoModel.Store.Factores" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Historial" EntityType="monedasProyectoModel.Store.Historial" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Monedas" EntityType="monedasProyectoModel.Store.Monedas" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Paises" EntityType="monedasProyectoModel.Store.Paises" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Usuario" EntityType="monedasProyectoModel.Store.Usuario" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Factores">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Id_Origen" />
+      <PropertyRef Name="Id_Destno" />
+      <PropertyRef Name="Factor" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_Origen" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Id_Destno" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Factor" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Historial">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="id_Destino" />
+      <PropertyRef Name="id_origen" />
+      <PropertyRef Name="Fecha_consulta" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_Destino" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="id_origen" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Resultado" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Fecha_consulta" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Monedas">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Id_Moneda" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Id_Moneda" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Paises">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Id_Pais" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="500" />
+    <Property Name="Id_Pais" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Login" />
+      <PropertyRef Name="Pass" />
+      <PropertyRef Name="Id_Pais" />
+      <PropertyRef Name="Nombre_y_Apellidos" />
+      <PropertyRef Name="Email" />
+      <PropertyRef Name="Fecha_de_nacimiento" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Pass" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Id_Pais" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Nombre_y_Apellidos" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Fecha_de_nacimiento" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+</Schema>

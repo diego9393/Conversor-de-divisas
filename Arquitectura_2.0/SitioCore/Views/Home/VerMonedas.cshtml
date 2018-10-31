@@ -11,10 +11,7 @@
             <div class="caption">
                 <h3 class="pull-right">@moneda.IdentificadorMoneda</h3>
                 <h3>
-                    @*@moneda.IdentificadorMoneda*@
-                    <a asp-controller="Home"
-                       asp-action="DetalleMonedas"
-                       asp-route-id="@moneda.Id">@moneda.IdentificadorMoneda</a>
+                    @moneda.IdentificadorMoneda
                 </h3>
                 <p>@moneda.Nombre</p>
             </div>
@@ -23,19 +20,7 @@
 
 }
 
-    <form asp-action="Calcular" method="post" class="form-horizontal" role="form">
-        <select asp-for="IDOrigen"
-                class="form-control"
-                asp-items="@(new SelectList(@Model.ListaMonedas, "IdentificadorMoneda", "IdentificadorMoneda"))"></select>
+<select asp-for="ID"
+        class="form-control"
+        asp-items="@(new SelectList(@Model.ListaMonedas,"IdentificadorMoneda", "Nombre"))"></select>
 
-        <select asp-for="IDDestino"
-                class="form-control"
-                asp-items="@(new SelectList(@Model.ListaMonedas, "IdentificadorMoneda", "IdentificadorMoneda"))"></select>
-
-        <input asp-for="Cantidad" class="form-control" />
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-5">
-                <input type="submit" class="btn btn-primary" value="Calcula" />
-            </div>
-        </div>
-    </form>

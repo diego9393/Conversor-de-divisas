@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\contexto_core\Contexto_core.csproj" />
+    <ProjectReference Include="..\Modelo_core\Modelo_core.csproj" />
+    <ProjectReference Include="..\Repositorio_core\Repositorio_core.csproj" />
+  </ItemGroup>
+
+</Project>

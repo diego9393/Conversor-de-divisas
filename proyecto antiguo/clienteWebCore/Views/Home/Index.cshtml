@@ -1,0 +1,21 @@
+﻿@model ClienteWeb.Modelos.HomeViewModel
+
+<h1>@Model.Titulo</h1>
+
+
+@foreach (var moneda in Model.Monedas)
+{
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="thumbnail">
+            <img src="@Model.ImagenMonedas" alt="">
+            <div class="caption">
+                <h3 class="pull-right">@moneda.IdentificadorMoneda</h3>
+                <h3>
+                    @moneda.IdentificadorMoneda
+                </h3>
+                <p>@moneda.Nombre</p>
+            </div>
+        </div>
+    </div>
+
+}

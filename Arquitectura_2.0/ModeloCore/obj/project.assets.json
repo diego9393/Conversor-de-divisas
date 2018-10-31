@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj",
       "projectName": "ModeloCore",
-      "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj",
+      "projectPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ModeloCore\\ModeloCore.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\proyecto-Final\\Arquitectura_2.0\\ModeloCore\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Desktop\\Arquitectura_2.0\\ModeloCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
