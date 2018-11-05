@@ -1,171 +1,166 @@
 ﻿using System.Collections.Generic;
-using System.ComponentModel;
 using System.Linq;
 using Contexto;
-//using Infraestructura.Seed;
 using Modelo;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Forex;
+using ForexQuotes;
 
-namespace Repo
+namespace RepositorioCore
 {
-
-    public interface IRepositorio
-    {
-        List<Moneda> GetMonedas();
-            
-            
-            List<Moneda> ListaMonedas { get; set; }
-        Moneda BuscarMonedaPorId(int IdMoneda);
-
-        void CrearMoneda(Moneda moneda);
-
-        List<Moneda> ObtenerMonedas();
-
-        void ActualizarMoneda(Moneda moneda);
-
-        void BorrarMoneda(Moneda moneda);
-    }
-
-
-    public class RepositorioFalso : IRepositorio
-    {
-        public List<Moneda> GetMonedas()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public List<Moneda> ListaMonedas { get; set; }
-        public Moneda BuscarMonedaPorId(int IdMoneda)
-        {
-return new Moneda();
-
-        }
-
-        public void CrearMoneda(Moneda moneda)
-        {
-            
-        }
-
-        public List<Moneda> ObtenerMonedas()
-        {
-            var lista = new List<Moneda>
-            {
-                new Moneda{IdentificadorMoneda = "EUR", Nombre = "Euros"},
-                new Moneda{IdentificadorMoneda = "USD", Nombre = "Dolares"},
-                
-            };
-            return lista;
-        }
-
-        public void ActualizarMoneda(Moneda moneda)
-        {
-            
-        }
-
-        public void BorrarMoneda(Moneda moneda)
-        {
-            
-        }
-    }
-
     public class Repositorio : IRepositorio
     {
         private readonly MonedaDb _contexto;
+
         public Repositorio(MonedaDb contexto)
         {
             _contexto = contexto;
             ListaMonedas = new List<Moneda>();
         }
 
-        public List<Moneda> GetMonedas()
+        public void crearFactor(FactorConversion factor)
         {
-          return new List<Moneda>();
-        }
+            var buscar = buscarFactor(factor.IdMonedaDestino, factor.IdMonedaOrigen);
 
-        public List<Moneda> ListaMonedas { get; set; }
-
-
-        public Moneda BuscarMonedaPorId(int IdMoneda)
-        {
-            
-                return _contexto.Monedas.FirstOrDefault(
-                    p => p.Id == IdMoneda);
-            
-        }
-
-
-        // C - CREATE
-
-        public void CrearMoneda(Moneda moneda)
-        {
-        
-           using (var context = _contexto)
-            {    
-                 var buscarMoneda = BuscarMonedaPorId(moneda.Id);
-                // Comprueba si ha encontrado la moneda
-                if (buscarMoneda != null)
-                {
-                    // Ha encontrado la moneda
-                    // La actualizamos
-                    ActualizarMoneda(moneda);
-                }
-                else
-                {
-                    // No ha encontrado la moneda
-                    // Creamos la moneda
-                    context.Monedas.Add(moneda);
-                    context.SaveChanges();
-                }
-            }
-
-        }
-
-        // R - RETRIEVE
-        public List<Moneda> ObtenerMonedas()
-        {
-            using (var context =_contexto)
+            //buscarMoneda = BuscarMonedaPorId(moneda.Id);
+            // Comprueba si ha encontrado la moneda
+            if (buscar != null)
             {
-                return context.Monedas.ToList();
+                // Ha encontrado la moneda
+                // La actualizamos
+                ActualizarFactor(factor);
             }
+            else
+            {
+                // No ha encontrado la moneda
+                // Creamos la moneda
+                _contexto.FactoresConverion.Add(factor);
+                _contexto.SaveChanges();
+            }
+        }
+
+        public decimal calcularMoneda (decimal cantidad, decimal factor)
+        {
+            var calculo = cantidad * factor;
+            return calculo;
         }
 
         // U - UPDATE
+        public void ActualizarFactor(FactorConversion factor)
+        {
+            var buscar = buscarFactor(factor.IdMonedaDestino, factor.IdMonedaOrigen);
+            if (buscar != null)
+            {
+                buscar.IdMonedaDestino = factor.IdMonedaDestino;
+                buscar.IdMonedaOrigen = factor.IdMonedaOrigen;
+                buscar.Factor = factor.Factor;
+                _contexto.SaveChanges();
+            }
+        }
+
         public void ActualizarMoneda(Moneda moneda)
         {
-  
-            using (var context = _contexto)
+            var buscarMoneda = BuscarMonedaPorId(moneda.Id);
+            if (buscarMoneda != null)
             {
-                var buscarMoneda = BuscarMonedaPorId(moneda.Id);
-                if (buscarMoneda != null)
-                {
-                    buscarMoneda.Nombre              = moneda.Nombre;
-                    buscarMoneda.IdentificadorMoneda = moneda.IdentificadorMoneda;
-                    context.SaveChanges();
-                }
+                buscarMoneda.Nombre              = moneda.Nombre;
+                buscarMoneda.IdentificadorMoneda = moneda.IdentificadorMoneda;
+                _contexto.SaveChanges();
             }
-
-
         }
 
 
         // D - DELETE
 
-        public void BorrarMoneda(Moneda moneda)
+        public void BorrarMoneda(int id)
         {
-
-            using (var context = _contexto)
-            {
-                var buscarMoneda = BuscarMonedaPorId(moneda.Id);
-                if (buscarMoneda == null)
-                {
-                    return;
-                }
-                context.Monedas.Remove(moneda);
-                context.SaveChanges();
-            }
-
+                var buscarMoneda = BuscarMonedaPorId(id);
+                if (buscarMoneda == null) return;
+                _contexto.Monedas.Remove(buscarMoneda);
+                _contexto.SaveChanges();
         }
 
 
+        public Moneda BuscarMonedaPorId(int IdMoneda)
+        {
+            return _contexto.Monedas.FirstOrDefault(
+                p => p.Id == IdMoneda);
+        }
 
+        // C - CREATE
+        public FactorConversion buscarFactor (int idDestino, int idOrigen)
+        {
+            return _contexto.FactoresConverion.FirstOrDefault(p => (p.IdMonedaDestino == idDestino) && (p.IdMonedaOrigen == idOrigen));
+        }
+
+        public void CrearFactor(FactorConversion factor)
+        {
+           var buscar = buscarFactor(factor.IdMonedaDestino, factor.IdMonedaOrigen);
+
+            if (buscar != null)
+            {
+                // Ha encontrado el factor
+                // La actualizamos
+                ActualizarFactor(factor);
+            }
+            else
+            {
+                // No ha encontrado el factor
+                // Creamos la moneda
+                _contexto.FactoresConverion.Add(factor);
+                _contexto.SaveChanges();
+            }
+        }
+
+        public Moneda buscarMonedaIdMoneda(string id)
+        {
+            return _contexto.Monedas.FirstOrDefault(p => p.IdentificadorMoneda == id);
+        }
+
+        public void CrearMoneda(Moneda moneda)
+        {
+            var buscarMoneda = buscarMonedaIdMoneda(moneda.IdentificadorMoneda);
+
+            //buscarMoneda = BuscarMonedaPorId(moneda.Id);
+            // Comprueba si ha encontrado la moneda
+            if (buscarMoneda != null)
+            {
+                // Ha encontrado la moneda
+                // La actualizamos
+                ActualizarMoneda(moneda);
+            }
+            else
+            {
+                // No ha encontrado la moneda
+                // Creamos la moneda
+                _contexto.Monedas.Add(moneda);
+                _contexto.SaveChanges();
+            }
+        }
+
+        public List<Moneda> GetMonedas()
+        {
+            return new List<Moneda>();
+        }
+
+        public List<Moneda> ListaMonedas { get; set; }
+
+        // R - RETRIEVE
+        public List<Moneda> ObtenerMonedas()
+        {
+                return _contexto.Monedas.ToList();
+        }
+
+        public decimal calcularMoneda(string origen, string destino, decimal cantidad)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public decimal calcularMoneda(string origen, string destino, decimal cantidad, FactorConversion factor)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
