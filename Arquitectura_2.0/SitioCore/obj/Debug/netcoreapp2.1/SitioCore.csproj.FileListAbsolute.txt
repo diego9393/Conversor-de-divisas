@@ -129,3 +129,5 @@ C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\SitioCore\o
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\SitioCore\obj\Debug\netcoreapp2.1\SitioCore.RazorAssemblyInfo.cs
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\SitioCore\obj\Debug\netcoreapp2.1\SitioCore.AssemblyInfoInputs.cache
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\SitioCore\obj\Debug\netcoreapp2.1\SitioCore.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\SitioCore\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\SitioCore\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs

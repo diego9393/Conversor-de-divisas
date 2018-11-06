@@ -13,7 +13,6 @@ namespace Contexto
 
         public DbSet<Moneda> Monedas { get; set; }
         public DbSet<FactorConversion> FactoresConverion { get; set; }
-        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Pais> Paises { get; set; }
 
 

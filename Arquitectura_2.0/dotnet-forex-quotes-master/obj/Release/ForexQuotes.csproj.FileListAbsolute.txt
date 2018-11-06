@@ -1,0 +1,9 @@
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\bin\Release\ForexQuotes.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\bin\Release\ForexQuotes.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\bin\Release\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\bin\Release\Newtonsoft.Json.xml
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\obj\Release\ForexQuotes.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\obj\Release\ForexQuotes.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\obj\Release\ForexQuotes.csproj.CopyComplete
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\obj\Release\ForexQuotes.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\dotnet-forex-quotes-master\obj\Release\ForexQuotes.pdb

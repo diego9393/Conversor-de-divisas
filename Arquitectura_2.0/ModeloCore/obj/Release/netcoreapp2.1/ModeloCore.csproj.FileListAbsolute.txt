@@ -1,0 +1,9 @@
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\bin\Release\netcoreapp2.1\ModeloCore.deps.json
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\bin\Release\netcoreapp2.1\ModeloCore.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\bin\Release\netcoreapp2.1\ModeloCore.pdb
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\obj\Release\netcoreapp2.1\ModeloCore.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\obj\Release\netcoreapp2.1\ModeloCore.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\obj\Release\netcoreapp2.1\ModeloCore.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\obj\Release\netcoreapp2.1\ModeloCore.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\obj\Release\netcoreapp2.1\ModeloCore.dll
+C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\obj\Release\netcoreapp2.1\ModeloCore.pdb

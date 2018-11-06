@@ -31,4 +31,3 @@ C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\ModeloCore\
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\ModeloCore\obj\Debug\netcoreapp2.1\ModeloCore.AssemblyInfo.cs
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\ModeloCore\obj\Debug\netcoreapp2.1\ModeloCore.dll
 C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0-55\ModeloCore\obj\Debug\netcoreapp2.1\ModeloCore.pdb
-C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\ModeloCore\obj\Debug\netcoreapp2.1\ModeloCore.csprojAssemblyReference.cache

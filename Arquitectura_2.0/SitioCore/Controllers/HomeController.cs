@@ -10,6 +10,7 @@ using SitioWeb.ViewModels;
 using Modelo;
 using Forex;
 using ForexQuotes;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SitioCore.Controllers
 {
@@ -22,6 +23,7 @@ namespace SitioCore.Controllers
             _repositorio = repositorio;
         }
 
+        [Authorize]
         public IActionResult VerMonedas()
         {
             var listaMonedas = _repositorio.ObtenerMonedas();
