@@ -106,7 +106,7 @@ WriteAttributeValue("", 221, Model.ImagenMoneda, 221, 19, false);
             WriteLiteral("                    ");
             EndContext();
             BeginContext(454, 158, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "661dc1cfe58d4504bcd69353d7ddead9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "65fe2d2e8f38499298717d7da1d26aea", async() => {
                 BeginContext(582, 26, false);
 #line 17 "C:\Users\usuario\Documents\GitHub\proyecto-Final\Arquitectura_2.0\SitioCore\Views\Home\VerMonedas.cshtml"
                                             Write(moneda.IdentificadorMoneda);
@@ -166,12 +166,12 @@ WriteAttributeValue("", 221, Model.ImagenMoneda, 221, 19, false);
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(735, 754, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "06ac0462b57c4e839e88c9361cc2748b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "132b69f6a1844a728482b5c59790dcfd", async() => {
                 BeginContext(813, 10, true);
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(823, 188, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0b859071739f4c38944144c023f8d946", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d62e902b86c449682b99ce742bcb5fe", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();
@@ -201,7 +201,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = (new SelectList(@M
                 WriteLiteral("\r\n\r\n        ");
                 EndContext();
                 BeginContext(1023, 189, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bef179b67f80470cb88a387fdc399e87", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6299bdc469543adbfbdf6aa98ed0ca8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();
@@ -231,7 +231,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = (new SelectList(@M
                 WriteLiteral("\r\n\r\n        ");
                 EndContext();
                 BeginContext(1224, 49, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9fad5852cc914a31ae0fda0766e11f53", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c0efce2c55fa4e189715b875edbd12db", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

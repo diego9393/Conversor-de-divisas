@@ -38,18 +38,23 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Acerca de</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contacto</a></li>
                     @if (SignInManager.IsSignedIn(User))
                     {
+                        @if (User.Identity.Name == "admin@admin.com")
+                        {
+                            <li><a asp-area="" asp-controller="Home" asp-action="ActualizarFactor">Actualizar Factor</a></li>
+                            <li><a asp-area="" asp-controller="Home" asp-action="ActualizarMonedas">Actualizar Monedas</a></li>
+                        }
                         <li><a asp-area="" asp-controller="Home" asp-action="VerMonedas">Monedas</a></li>
-                        <a class="btn btn-primary" asp-controller="Account" asp-action="Logoff">Log off</a>
+                        <li><a asp-controller="Account" asp-action="Logoff">Cerrar Sesión</a></li>
                     }
                     else
                     {
-                        <li><a asp-area="" asp-controller="Account" asp-action="Login">Login</a></li>
+                        <li><a asp-area="" asp-controller="Account" asp-action="Login">Iniciar Sesión</a></li>
                         <li><a asp-area="" asp-controller="Account" asp-action="Register">Registrar</a></li>
                     }
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
                 </div>
             </div>
@@ -61,7 +66,7 @@
             @RenderBody()
             <hr />
             <footer>
-                <p>&copy; 2018 - SitioCore</p>
+                <p>&copy; 2018 - Diego Vivar Otero</p>
             </footer>
         </div>
 

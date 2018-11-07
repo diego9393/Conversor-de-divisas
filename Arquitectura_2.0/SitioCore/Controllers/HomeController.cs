@@ -78,6 +78,7 @@ namespace SitioCore.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult ActualizarFactor()
         {
             var client = new ForexDataClient("3xVV9NYiGNoskWLSHaQuBWH7ItkxECBQ");
@@ -106,6 +107,7 @@ namespace SitioCore.Controllers
             _repositorio.crearFactor(factor);
         }
 
+        [Authorize]
         public IActionResult ActualizarMonedas()
         {
             var client = new ForexDataClient("3xVV9NYiGNoskWLSHaQuBWH7ItkxECBQ");
