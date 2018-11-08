@@ -2,13 +2,13 @@
 @using SitioCore.ViewModel
 @model SitioCore.ViewModel.RegisterViewModel
 @{
-    ViewData["Title"] = "Register";
+    ViewData["Title"] = "Registro";
 }
 
 <h2>@ViewData["Title"].</h2>
 
 <form asp-controller="Account" asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="form-horizontal">
-    <h4>Create a new account.</h4>
+    <h4>Crear nueva cuenta.</h4>
     <hr />
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group">
@@ -43,14 +43,14 @@
         <label asp-for="Role" class="col-md-2 control-label"></label>
         <div class="col-md-5 radio">
             <label>             
-                <input asp-for="Role" type="radio" value="Organizer" />
-                Organizer
+                <input  asp-for="Role" type="radio" value="Organizer" disabled/>
+                Administrador
             </label>
         </div>
         <div class="col-md-5 radio">
             <label>
-                <input asp-for="Role" type="radio" value="Speaker" />
-                Speaker
+                <input checked="checked" asp-for="Role" type="radio" value="Speaker" />
+                Usuario
             </label>
                 <span asp-validation-for="Role" class="text-danger"></span>
 </div>

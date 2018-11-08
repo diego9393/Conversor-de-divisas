@@ -31,26 +31,35 @@ namespace SitioCore.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            if (!ModelState.IsValid)
-                return View("Error");
+            try
+            {
+                if (!ModelState.IsValid)
+                    return RedirectToAction("Index", "Account/Register");
 
-            var user = new UsuarioConversor() { UserName = model.Email, Email = model.Email, FechaNacimiento = model.BirthDate };
-            var result = await userManager.CreateAsync(
-                user, model.Password);
+                var user = new UsuarioConversor() { UserName = model.Email, Email = model.Email, FechaNacimiento = model.BirthDate };
+                var result = await userManager.CreateAsync(
+                    user, model.Password);
 
-            if (!await roleManager.RoleExistsAsync("Organizer"))
-                await roleManager.CreateAsync(new IdentityRole { Name = "Organizer" });
-            if (!await roleManager.RoleExistsAsync("Speaker"))
-                await roleManager.CreateAsync(new IdentityRole { Name = "Speaker" });
+                if (!await roleManager.RoleExistsAsync("Organizer"))
+                    await roleManager.CreateAsync(new IdentityRole { Name = "Organizer" });
+                if (!await roleManager.RoleExistsAsync("Speaker"))
+                    await roleManager.CreateAsync(new IdentityRole { Name = "Speaker" });
 
-            await userManager.AddToRoleAsync(user, model.Role);
+                await userManager.AddToRoleAsync(user, model.Role);
 
-            /*if (result.Succeeded)
-                return View("RegistrationConfirmation");*/
+                /*if (result.Succeeded)
+                    return View("RegistrationConfirmation");*/
 
-            foreach (var error in result.Errors)
-                ModelState.AddModelError("error", error.Description);
-            return View(model);
+
+                foreach (var error in result.Errors)
+                    ModelState.AddModelError("error", error.Description);
+                //return View(model);
+                return RedirectToAction("Index", "Home/VerMonedas");
+            }
+            catch
+            {
+               return RedirectToAction("Index", "Home/Register");
+            }
         }
 
         [HttpGet]
